@@ -1,0 +1,112 @@
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+}
+
+.login-card-body,
+.register-card-body {
+    background-color: unset;
+}
+
+.font-weight-semibold {
+    font-weight: 500;
+}
+
+.form-control {
+    font-size: 14px;
+}
+
+.custom-search {
+    position: relative;
+    color: #aaa;
+    font-size: 16px;
+}
+
+.custom-search .fa-search {
+    position: absolute;
+    top: 11px;
+    right: 14px;
+    color: #17a2b8;
+}
+
+.card-body::after,
+.card-footer::after,
+.card-header::after {
+    content: unset;
+}
+
+.text-sx {
+    font-size: x-small;
+}
+
+.text-sm {
+    font-size: small;
+}
+
+.select2-container .select2-selection--single {
+    height: inherit !important;
+}
+
+.select2-container--default
+    .select2-selection--single
+    .select2-selection__arrow {
+    top: 5px !important;
+    right: 5px !important;
+}
+
+.select2-container--default
+    .select2-selection--single
+    .select2-selection__rendered {
+    line-height: 21px !important;
+}
+
+.select2-container--default
+    .select2-selection--single
+    .select2-selection__rendered {
+    margin-top: 0 !important;
+}
+
+.select2-container .select2-selection--multiple {
+    min-height: calc(2.25rem + 2px) !important;
+}
+
+.select2-container--default
+    .select2-selection--multiple
+    .select2-selection__rendered
+    .select2-search.select2-search--inline
+    .select2-search__field {
+    margin-top: 8px !important;
+}
+
+.select2-container--default
+    .select2-selection--multiple
+    .select2-selection__choice {
+    color: #212529;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+/* table borderless */
+.table-borderless td,
+.table-borderless th {
+    border: 0;
+}
+
+.card {
+    box-shadow: none !important;
+    border-radius: 6px;
+}
+
+.content-wrapper {
+    background-color: #f1f4f6;
+}
+
+.list-style-none {
+    list-style: none;
+}
+
+.dropdown-toggle::after {
+    display: none !important;
+}
